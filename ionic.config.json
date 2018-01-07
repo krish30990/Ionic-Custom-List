@@ -1,0 +1,8 @@
+{
+  "name": "list-ui",
+  "app_id": "8cbb7e56",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

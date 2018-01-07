@@ -1,0 +1,112 @@
+        page-home {
+    .scroll-content {
+        margin: 0 auto !important;
+        padding: 0px !important;
+        background: #B4B8AB;
+    }
+    .main-app-top {
+        position: relative;
+        padding: 0px !important;
+        margin: 0px;
+        height: 300px;
+        width: 100%; 
+        background: #2d2d2d;
+        z-index: 0;
+    }
+    .main-app-top:before {
+        position: absolute;
+        content: '';
+        z-index: 1;
+        background: #B4B8AB;
+        width: 200%;
+        height: 50%;
+        transform-origin: center;
+        bottom: 10%;
+        transform: rotate(-8deg) scale(1.5);
+    }
+    .header-md,
+    .header-ios,
+    .header-wp {
+        background: #2d2d2d;
+    }
+    .top-header {
+        font-size: 28px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 12px;
+        color: white;
+    }
+    .list-md {
+        margin-top: 15%;
+        padding-bottom: 5%;
+    }
+    .item-md,
+    .item-ios,
+    .item-wp {
+        background: transparent;
+        margin: 0;
+        z-index: 1;
+    }
+    .item-md img {
+        z-index: 1;
+        height: 90px;
+        width: 90px;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+        max-height: 100px;
+        max-width: 100px;
+        border-radius: 5%;
+        border: 1px solid burlywood;
+        box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    .item-detail-container {
+        z-index: -1;
+        border-radius: 10px;
+        position: relative;
+        margin: 1rem;
+        font-family: Righteous;
+        width: 90%;
+        height: 120px;
+        max-width: 90%;
+        max-height: 120px;
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-left: 5%;
+        margin-top: -12%;
+        text-align: start;
+        box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.25);
+    }
+    .item-container h3 {        
+        font-weight: 400;
+        font-size: 20px;
+        padding-top: 1rem;
+        color: black;
+    }
+    .item-container p {
+        font-weight: lighter;
+        color: black;
+        line-height: 2em;
+        font-size: 14px;
+    }
+    .item-container h4 {
+        color: black;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .item-container{
+        position: relative;
+        margin-left: 10rem;
+    }
+    .fa-1 {
+        float: left;
+    }
+    .fa-2 {
+        float: right;
+    }
+
+    .fa-star{
+        color: goldenrod;
+    }
+}
